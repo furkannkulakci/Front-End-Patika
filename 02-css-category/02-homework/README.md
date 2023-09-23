@@ -1,4 +1,4 @@
-# 02-CSS-Category | 01-Homework
+# 02-CSS-Category | 02-Homework
 
 Google'ın 1998 yılında yayınlanan ilk versiyonunu tasarladım.
 İlk versiyonunu buradan inceleyebilirsiniz. https://web.archive.org/web/19981202230410if_/http://www.google.com/
