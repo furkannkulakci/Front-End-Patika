@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+.searchbox {
+  text-align: center;
+  background-color: #eeeeee;
+  margin-bottom: 2px;
+  padding: 1px 0;
+}
+.bottom {
+  display: flex;
+}
+
+.bottom-left,
+.bottom-middle,
+.bottom-right {
+  text-align: center;
+  padding: 10px 0;
+  height: 55px;
+  margin-right: 1px;
+}
+
+.bottom-left {
+  background-color: #7ee5da;
+  flex: 1.35; /* en sağdakinden biraz küçük */
+}
+
+.bottom-middle {
+  background-color: #70ccc2;
+  flex: 0.75; /* en dar kutu*/
+  font-size: small;
+}
+
+.bottom-right {
+  background-color: #62b3aa;
+  flex: 1.6; /* en geniş kutu */
+  font-size: small;
+  margin-right: 0;
+  padding: 1px 0 0 0;
+  height: 74px;
+}
+
+footer {
+  background-color: #ffffff;
+  font-size: small;
+  margin-top: 18px;
+}
+
+.clear {
+  clear: both;
+}
