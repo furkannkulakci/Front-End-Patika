@@ -2,4 +2,4 @@
 
 ## Google güncel logo
 
-Link:
+Link: https://github.com/furkannkulakci/Front-End-Patika/tree/main/02-css-category/03-homework
