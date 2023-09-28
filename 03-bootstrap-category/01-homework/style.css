@@ -1,0 +1,25 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #e9ecef;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.display-4 {
+  font-family: "Fuggles", cursive;
+}
