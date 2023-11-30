@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mr-1" style="position: relative">
+      <div style="position: absolute; top: 0; right: 0">
+        <div
+          id="liveToast"
+          class="toast success hide"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+          data-delay="4000"
+        >
+          <div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="toast"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">add to list</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mr-1" style="position: relative">
+      <div style="position: absolute; top: 0; right: 0">
+        <div
+          id="liveToast"
+          class="toast error hide"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+          data-delay="4000"
+        >
+          <div>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="toast"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="toast-body">You cannat add an empty list</div>
+        </div>
+      </div>
+    </div>
+    <div id="alert"></div>
+
+    <div class="container">
+      <div class="header">
+        <img src="image/todo.jpg" class="mb-1" alt="" />
+        <h2>To do list</h2>
+        <input type="text" id="task" placeholder="What are you going to do?" />
+        <span onclick="newElement()" id="liveToastBtn" class="button">add</span>
+      </div>
+
+      <ul id="list">
+        <!-- <li>Drink 3 liters of water</li>
+        <li>Do Homework</li>
+        <li>Code for at least 3 hours</li>
+        <li>Make Food</li>
+        <li>Read 50 Pages of Book</li> -->
+      </ul>
+    </div>
+
+    <script src="todoList.js"></script>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
