@@ -1,0 +1,89 @@
+/* colors */
+:root {
+  --bg-color: #fff5e0;
+  --secondary-color: #ff6969;
+  --third-color: #141e46;
+  --fourth-color: #c70039;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", serif;
+  background-color: var(--bg-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-family: "Croissant One", cursive;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.btn-item {
+  border: 1px solid var(--third-color);
+  margin-left: 15px;
+  border-radius: 5%;
+}
+
+.btn-item:hover {
+  color: var(--bg-color);
+  background-color: var(--fourth-color);
+}
+
+.photo {
+  width: 30%;
+  height: 175px;
+  object-fit: cover;
+  border: 0.25rem solid var(--third-color);
+  border-radius: 10px;
+}
+
+.menu-items {
+  display: flex;
+  margin: 20px 0;
+}
+
+.menu-info {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ff6969;
+  font-family: "Croissant One", cursive;
+}
+
+.price {
+  font-family: "Croissant One", cursive;
+}
+
+h4 {
+  color: var(--secondary-color);
+}
+
+.menu-text {
+  padding-top: 20px;
+}
+
+.desc {
+  font-size: larger;
+  color: var(--third-color);
+}
