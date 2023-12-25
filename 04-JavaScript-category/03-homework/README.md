@@ -2,6 +2,10 @@
 
 ## Asian Kitchen's Menu
 
-### Önizleme
+### Project Preview
 
-[Project Preview](https://github.com/furkannkulakci/Front-End-Patika/blob/main/04-JavaScript-category/03-homework/Asian%20Kitchen.gif)
+![Asian Kitchen](/04-JavaScript-category/03-homework/Asian-Kitchen.gif)
+
+### Responsive Design
+
+![Asian Kitchen Responsive](/04-JavaScript-category/03-homework/Asian-Kitchen-Responsive.gif)
